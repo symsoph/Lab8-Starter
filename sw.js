@@ -50,7 +50,7 @@ self.addEventListener('fetch', function (event) {
   event.respondWith(caches.open(CACHE_NAME).then((cache) => {
     // B8. TODO - If the request is in the cache, return with the cached version.
     // Go to the cache first
-    return cache.match(event.request.url).then((cachedResponse) => {
+    return cache.match(event.request).then((cachedResponse) => {
       // Return a cached response if we have one
       if (cachedResponse) {
         return cachedResponse;
