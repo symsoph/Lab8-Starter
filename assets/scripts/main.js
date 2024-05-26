@@ -51,9 +51,10 @@ function initializeServiceWorker() {
       // Steps B3-B6 will be *inside* the event listener's function created in B2
       // B3. TODO - Register './sw.js' as a service worker (The MDN article
       //            "Using Service Workers" will help you here)
-      const registration = await navigator.serviceWorker.register("./Lab8-Starter/blob/main/sw.js", {
-        scope: "./",
-      });
+      const registration = await navigator.serviceWorker.register("./Lab8-Starter/blob/main/sw.js"); 
+      // {
+      //   scope: "./",
+      // });
       // B4. TODO - Once the service worker has been successfully registered, console
       //            log that it was successful.
       if (registration) { console.log("Successfully registered service worker."); }
