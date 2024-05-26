@@ -1,14 +1,14 @@
 {
-    "name": "",
-    "short_name": "",
-    "description": "",
+    "name": "Lab8-Starter",
+    "short_name": "Sofia Nguyen",
+    "description": "Recipe web app for CSE 110 Lab 8",
     "start_url": "",
-    "display": "",
-    "background_color": "",
-    "theme_color": "",
+    "display": "standalone",
+    "background_color": "peachpuff",
+    "theme_color": "rgb(255 218 185)",
     "icons": [
       {
-        "src": "/assets/images/icons/icon-192x192.png",
+        "src": "/assets/images/icons/", 
         "sizes": "192x192",
         "type": "image/png"
       }
